@@ -1,0 +1,74 @@
+body
+{
+	margin: 0;
+	font-size: 24px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+p
+{
+	font-size: 24px;
+	/*text-indent: 50pt;*/
+}
+
+a
+{
+	text-decoration: none;
+}
+
+input
+{
+	font-size: 18px;
+}
+
+div.logo
+{
+	line-height: 80px;
+	color: #000088;
+	font-family: times;
+	font-size: 50px;
+	font-weight: bold;
+	background: linear-gradient(to top, #ddffcc, #77ff66);
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-color: #55ff55;
+	text-align: center;
+}
+
+.logo img
+{
+	margin-right: 20px;
+	display: inline-block;
+	margin-top: 0;
+	padding-top: 0;
+	height: 70px;
+	vertical-align: middle;
+	top: 0px;
+	padding-bottom: 10px;
+}
+
+div.content
+{
+	padding: 5%;
+	text-align: justify;
+}
+
+td
+{
+	font-size: 24px;
+	padding: 5px;
+	width: 200px;
+	border: solid;
+	border-width: 1px;
+}
+
+table
+{
+	border: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}

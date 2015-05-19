@@ -1,0 +1,1051 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"time",
+				"timelimit"
+			],
+			[
+				"outp",
+				"outp_form"
+			],
+			[
+				"chec",
+				"check_sol"
+			],
+			[
+				"time_",
+				"time_check"
+			],
+			[
+				"out",
+				"output2"
+			],
+			[
+				"ti",
+				"time_out"
+			],
+			[
+				"sol",
+				"solution"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"Edge",
+				"EdgeRef	typedef"
+			],
+			[
+				"Node",
+				"Node	class"
+			],
+			[
+				"Ed",
+				"Edge	class"
+			],
+			[
+				"n",
+				"num	int"
+			],
+			[
+				"vis",
+				"visited	bool"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"border-botto",
+				"border-bottom-style"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"borders",
+				"border-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"border-bott",
+				"border-bottom-style"
+			],
+			[
+				"borderw",
+				"border-bottom-width"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"opera",
+				"operand	char*"
+			],
+			[
+				"strnc",
+				"strncpy(char *restrict __dest, const char *restrict __src, size_t __n)	char *"
+			],
+			[
+				"read",
+				"readBinTree(const char *filename)	void"
+			],
+			[
+				"sP",
+				"sPop(Item *&stack)	char"
+			],
+			[
+				"inp",
+				"inputFromKeyboard(Item *&stack)	void"
+			],
+			[
+				"sra",
+				"srand(unsigned int __seed)	void"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"b",
+				"begin()	iterator"
+			],
+			[
+				"e",
+				"empty() const	bool"
+			],
+			[
+				"ed",
+				"edge	std::vector<EdgeRef>"
+			],
+			[
+				"N",
+				"Node	class"
+			],
+			[
+				"Eg",
+				"EdgeRef	typedef"
+			],
+			[
+				"en",
+				"end	const NodeRef&"
+			],
+			[
+				"di",
+				"dist() const	double"
+			],
+			[
+				"s",
+				"dist(const Pos &other) const	double"
+			],
+			[
+				"glColor3d",
+				"glColor3d(GLdouble red, GLdouble green, GLdouble blue)	void"
+			],
+			[
+				"glColo",
+				"glColor3dv(const GLdouble *v)	void"
+			],
+			[
+				"beg",
+				"begin	NodeRef"
+			],
+			[
+				"GLUT_BITMA",
+				"GLUT_BITMAP_HELVETICA_18	macro"
+			],
+			[
+				"glPop",
+				"glPopMatrix()	void"
+			],
+			[
+				"sqrt",
+				"sqrtl(long double __x)	long double"
+			],
+			[
+				"sta",
+				"stack2	Item *"
+			],
+			[
+				"pri",
+				"printStack(Item *&head)	void"
+			],
+			[
+				"isa",
+				"isalpha(int)	int"
+			],
+			[
+				"edge",
+				"edgeLen	int"
+			],
+			[
+				"node",
+				"node	std::vector<Node>"
+			],
+			[
+				"edg",
+				"edgeEnd	int"
+			],
+			[
+				"d",
+				"dist	int"
+			],
+			[
+				"Gra",
+				"Gray	State"
+			],
+			[
+				"stac",
+				"stack	Item* &"
+			],
+			[
+				"da",
+				"data	Item"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "menu.css",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common/db.php",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common/menu.php",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1051,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contacts/index.php",
+			"settings":
+			{
+				"buffer_size": 850,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cource/index.php",
+			"settings":
+			{
+				"buffer_size": 726,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/index.php",
+			"settings":
+			{
+				"buffer_size": 4889,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/check_sol.sh",
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/timelimit.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theory/index.php",
+			"settings":
+			{
+				"buffer_size": 1318,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/taras/a.cpp",
+		"/var/www/html/cursach/tasks/1",
+		"/home/taras/Downloads/Iskhodny_kod (2).cpp",
+		"/home/taras/the_log",
+		"/var/www/html/cursach/tasks/timelimit.txt",
+		"/var/www/html/cursach/tasks/check_sol.sh",
+		"/home/taras/Downloads/res",
+		"/home/taras/uploads/timeout.cpp",
+		"/home/taras/uploads/incorrect.cpp",
+		"/home/taras/uploads/correct.cpp",
+		"/home/taras/uploads/hello.cpp",
+		"/var/www/html/cursach/tasks/result.txt",
+		"/var/www/html/cursach/tasks/test.txt",
+		"/var/www/html/cursach_old/others/check_sol.sh",
+		"/var/log/auth.log",
+		"/var/www/html/cursach/tasks/cmp.cpp",
+		"/var/www/html/cursach/tasks/sol.cpp",
+		"/home/taras/main.cpp",
+		"/home/taras/Downloads/lab6.cpp",
+		"/var/www/html/cursach_old/others/check_sol.php",
+		"/var/www/html/wsd/index.html",
+		"/var/www/html/cursach/index.php",
+		"/home/taras/dev/discrette/realizations/lab10/graph_10_1.txt",
+		"/home/taras/dev/discrette/realizations/lab10/graph_07_1.txt",
+		"/home/taras/dev/discrette/realizations/lab10_old/graph.cpp",
+		"/home/taras/dev/discrette/realizations/lab7/edge.cpp",
+		"/home/taras/dev/discrette/realizations/lab7/edge.h",
+		"/home/taras/dev/discrette/realizations/lab7/node.cpp",
+		"/home/taras/dev/discrette/realizations/lab7/node.h",
+		"/home/taras/dev/discrette/realizations/lab7/graph.cpp",
+		"/home/taras/dev/discrette/realizations/lab7/graph.h",
+		"/home/taras/dev/anp/2 semestr/lab10/edge.cpp",
+		"/home/taras/Downloads/1.txt",
+		"/home/taras/Downloads/Source.cpp",
+		"/home/taras/index.php",
+		"/home/taras/Downloads/Lab/Tree.h",
+		"/home/taras/Downloads/Lab/Source.cpp",
+		"/home/taras/Downloads/Lab/Tree.cpp",
+		"/home/taras/Downloads/Lab/Queue.h",
+		"/home/taras/Downloads/Lab/Queue.cpp",
+		"/home/taras/Downloads/Lab/makefile",
+		"/home/taras/Downloads/main.cpp",
+		"/home/taras/.config/sublime-text-2/Packages/SublimeClang/Default.sublime-keymap",
+		"/home/taras/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/taras/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/taras/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/media/taras/GRMCULXFRER/labanp/lab4/lab4/main.cpp",
+		"/home/taras/Downloads/Экстремум функции/Project1.cpp",
+		"/home/taras/Downloads/Экстремум функции/Unit1.h",
+		"/home/taras/Downloads/Экстремум функции/Unit1.cpp",
+		"/home/taras/dev/anp/2 semestr/lab7/makefile",
+		"/home/taras/dev/anp/2 semestr/lab4/makefile",
+		"/etc/phpmyadmin/apache.conf",
+		"/home/taras/dev/anp/2 semestr/lab7/tree.cpp",
+		"/home/taras/dev/anp/2 semestr/lab5/makefile",
+		"/home/taras/dev/anp/2 semestr/bevz/input.txt",
+		"/home/taras/dev/anp/2 semestr/bevz/lab4.cpp",
+		"/home/taras/dev/anp/2 semestr/lab4/stack.cpp",
+		"/home/taras/dev/anp/2 semestr/lab4/main.cpp",
+		"/home/taras/dev/anp/2 semestr/input.txt",
+		"/home/taras/dev/anp/2 semestr/lab4.cpp",
+		"/home/taras/dev/anp/2 semestr/lab4/stack.h",
+		"/home/taras/dev/anp/2 semestr/lab5/input.txt",
+		"/home/taras/dev/anp/2 semestr/lab4/input.txt",
+		"/home/taras/Downloads/Lab4_rezerv.cpp",
+		"/home/taras/dev/anp/2 semestr/lab5/queue.h",
+		"/home/taras/dev/anp/2 semestr/lab5/queue.cpp",
+		"/home/taras/Downloads/untitled.pro",
+		"/home/taras/Downloads/Lab_5.cpp",
+		"/home/taras/Downloads/katya.cpp",
+		"/home/taras/Downloads/result_2.txt",
+		"/home/taras/Downloads/1 (1).txt",
+		"/home/taras/Backups/dev/rubiks-cube/main.cpp",
+		"/home/taras/lab4.cpp",
+		"/home/taras/cynergy.conf",
+		"/home/taras/output.txt",
+		"/home/taras/dev/anp/2 semestr/lab5/lab5.cpp",
+		"/home/taras/dev/anp/2 semestr/den/lab5.txt",
+		"/home/taras/dev/anp/2 semestr/den/lab5.cpp",
+		"/home/taras/dev/anp/2 semestr/den/lab4.cpp",
+		"/home/taras/dev/anp/2 semestr/lab5.cpp",
+		"/home/taras/flash/Lab4/Lab4/stack.cpp",
+		"/home/taras/Downloads/Iskhodny_kod (1).cpp",
+		"/home/taras/Downloads/000342.cpp",
+		"/mnt/data/Education/Programming/ANSI C++ semestr 2/MethodLabWorkС++Semestr2/labs/lab_02/variant.htm",
+		"/home/taras/dev/people/28. Халимон Тарас Юрійович/2 semestr/lab5/input.txt",
+		"/home/taras/.config/sublime-text-2/Packages/User/While.sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/C++/if-..-(if).sublime-snippet",
+		"/home/taras/Downloads/000210.cpp",
+		"/home/taras/dev/discrette/realizations/lab7/lab7.sublime-project",
+		"/home/taras/dev/discrette/realizations/lab7/graph_07_1.txt",
+		"/home/taras/dev/city-simulator-old/engine/trsys.cpp",
+		"/home/taras/dev/discrette/realizations/lab7/Makefile",
+		"/home/taras/dev/discrette/realizations/lab7/graph_07_4.txt",
+		"/home/taras/dev/discrette/realizations/lab7/graph_07_3.txt",
+		"/home/taras/dev/discrette/realizations/lab7/graph_07_2.txt",
+		"/home/taras/dev/discrette/lab7/Makefile",
+		"/home/taras/dev/discrette/lab7/edge.cpp",
+		"/home/taras/dev/discrette/lab7/main.cpp",
+		"/home/taras/dev/discrette/lab7/graph.h",
+		"/home/taras/dev/discrette/lab7/graph.cpp",
+		"/home/taras/dev/discrette/lab7/node.cpp",
+		"/home/taras/dev/discrette/lab7/edge.h",
+		"/home/taras/dev/discrette/lab7/node.h",
+		"/home/taras/dev/discrette/lab7/graph_07_1.txt",
+		"/home/taras/dev/discrette/lab5/graph_07_1.txt",
+		"/home/taras/dev/discrette/lab5/Makefile",
+		"/home/taras/dev/discrette/lab5/pos.cpp",
+		"/home/taras/dev/discrette/lab5/edge.cpp",
+		"/home/taras/dev/discrette/lab5/pos.h",
+		"/home/taras/dev/discrette/lab5/.h",
+		"/home/taras/dev/lab7/man.txt",
+		"/home/taras/dev/lab7/pos.cpp",
+		"/home/taras/dev/lab7/pos.h",
+		"/home/taras/dev/lab7/edge.cpp",
+		"/home/taras/dev/lab7/edge.h",
+		"/home/taras/dev/lab7/node.cpp",
+		"/home/taras/dev/lab7/node.h",
+		"/home/taras/dev/lab7/graph.cpp",
+		"/home/taras/dev/lab7/graph.h",
+		"/home/taras/dev/lab7/main.cpp",
+		"/home/taras/city-simulator/input/map.in",
+		"/home/taras/city-simulator/input/rel.in",
+		"/home/taras/lab7/graph_07_1.txt",
+		"/home/taras/input.txt",
+		"/home/taras/dev/investigation/glut init/initGLUT.cpp",
+		"/home/taras/.config/sublime-text-2/Packages/C++/C++.sublime-build",
+		"/home/taras/flash/Lab4/Lab4/main.cpp"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			" ",
+			" ",
+			"txt",
+			"time.txt",
+			"txt",
+			"password check failed for user",
+			"th",
+			"stdin",
+			"output2",
+			"incorre",
+			"./a.out",
+			"echo",
+			"soloution",
+			"\\.'.*\\\\n';",
+			"\\.'.*",
+			".'</p>\\n';",
+			"n",
+			".'</td>\\n';",
+			"\\.'.*",
+			"i",
+			"vis",
+			"()",
+			"NodeRef",
+			"edge",
+			"begin",
+			"=#",
+			"font-size",
+			"red",
+			" block",
+			"    ",
+			" {\n",
+			"  ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"display",
+			";\n",
+			" {\n",
+			" }",
+			"\n ",
+			" { ",
+			"padding",
+			"left",
+			"55ff55",
+			"nav",
+			"jpg",
+			"queue",
+			"function",
+			"cerr",
+			"root",
+			"cerr",
+			"root",
+			"input",
+			"Tree",
+			"Item",
+			"false",
+			"queue",
+			"lab5",
+			"cout",
+			"int",
+			"* &",
+			" < ",
+			" = ",
+			"\\+\\+i",
+			" >> ",
+			" << ",
+			" \\(",
+			");\n",
+			"{",
+			"\n{",
+			"\\{.*\\}",
+			"20",
+			"tail",
+			"head",
+			"name",
+			");\n",
+			"stack2",
+			"stack1",
+			"sPop",
+			"q.head",
+			"name",
+			"q",
+			"value",
+			"Item()",
+			"q->",
+			"->",
+			"q->",
+			"data",
+			"st",
+			"start",
+			"-1",
+			"5 ",
+			"state = ",
+			"c->dest->begin",
+			"n",
+			"c->dest->end",
+			"c->pos->end",
+			"TInside",
+			"TBorder",
+			"c->temp.",
+			"border",
+			"i->end->temp.",
+			"road",
+			"RoadRef",
+			"invC",
+			" ",
+			"Edge",
+			"Node",
+			"1",
+			"lab7",
+			"all",
+			"lab5",
+			"(*i)",
+			" pos.o",
+			"main",
+			"12",
+			"15",
+			"14",
+			"15"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "menu.css",
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "common/db.php",
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "common/menu.php",
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "contacts/index.php",
+					"settings":
+					{
+						"buffer_size": 850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "cource/index.php",
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tasks/index.php",
+					"settings":
+					{
+						"buffer_size": 4889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3033,
+								3082
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2499.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "tasks/check_sol.sh",
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tasks/timelimit.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "theory/index.php",
+					"settings":
+					{
+						"buffer_size": 1318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1318,
+								1318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 708.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.clang":
+	{
+		"height": 75.0
+	},
+	"output.exec":
+	{
+		"height": 377.0
+	},
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
