@@ -39,6 +39,13 @@ div.logo
 	text-align: center;
 }
 
+img
+{
+	vertical-align: middle;
+	padding-left: 10px;
+	height: 20px;
+}
+
 .logo img
 {
 	margin-right: 20px;
@@ -54,6 +61,7 @@ div.logo
 div.content
 {
 	padding: 5%;
+	padding-top: 60px;
 	text-align: justify;
 }
 
@@ -61,14 +69,39 @@ td
 {
 	font-size: 24px;
 	padding: 5px;
-	width: 200px;
+	width: 250px;
 	border: solid;
 	border-width: 1px;
+	text-align: justify;
+	padding: 0;
 }
 
 table
 {
-	border: solid;
+	border: none;
 	border-width: 1px;
 	border-collapse: collapse;
+}
+
+.fname
+{
+	border: none;
+	width: 250px;
+}
+
+.fvalue
+{
+	border: none;
+	width: 500px;
+}
+
+.fdel
+{
+	border: none;
+	width: 20px;
+}
+
+pre
+{
+	font: inherit;
 }

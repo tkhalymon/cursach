@@ -11,6 +11,7 @@ echo '<div class = "logo">
 			<li><a href = "'.$root.'/tasks/?sort=name">Ім’ям</a></li>
 			<li><a href = "'.$root.'/tasks/?sort=diff">Складністю</a></li>
 			<li><a href = "'.$root.'/tasks/?sort=topic">Категоріями</a></li>
+			<li><a href = "'.$root.'/tasks/addtask">Додати завдачу</a></li>
 		</ul>
 	</li>
 	<li><a href = "'.$root.'/theory">Теорія</a></li>

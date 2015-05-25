@@ -7,7 +7,7 @@ $root = "..";
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>/menu.css">
 	<meta http-equiv = "content-type" content = "text/html" charset = "utf-8">
-	<title>ACM Online Cource</title>
+	<title>Онлайн курс</title>
 </head>
 <body>
 	<?php include "$root/common/menu.php"; ?>

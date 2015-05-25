@@ -4,6 +4,126 @@
 		"selected_items":
 		[
 			[
+				"ex",
+				"ex_in"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"tas",
+				"tasks"
+			],
+			[
+				"mysq",
+				"mysql_error"
+			],
+			[
+				"inp",
+				"inputOk"
+			],
+			[
+				"eNum",
+				"ex_num"
+			],
+			[
+				"cou",
+				"countTests"
+			],
+			[
+				"tes",
+				"test_num"
+			],
+			[
+				"re",
+				"removeChild"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"pa",
+				"parentNode"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"cl",
+				"close()	void"
+			],
+			[
+				"out",
+				"outname	char[]"
+			],
+			[
+				"strca",
+				"strcat(char *restrict __dest, const char *restrict __src)	char *"
+			],
+			[
+				"sessi",
+				"session_start"
+			],
+			[
+				"c",
+				"class	class …"
+			],
+			[
+				"f",
+				"foreach	foreach …"
+			],
+			[
+				"d",
+				"def?	defined(…)"
+			],
+			[
+				"t",
+				"tidy_access_count"
+			],
+			[
+				"r",
+				"req1	require_once …"
+			],
+			[
+				"e",
+				"elseif	elseif …"
+			],
+			[
+				"top",
+				"topic_num"
+			],
+			[
+				"to",
+				"topic_num"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
 				"time",
 				"timelimit"
 			],
@@ -18,10 +138,6 @@
 			[
 				"time_",
 				"time_check"
-			],
-			[
-				"out",
-				"output2"
 			],
 			[
 				"ti",
@@ -56,24 +172,8 @@
 				"visited	bool"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
-				"padd",
-				"padding-bottom"
-			],
-			[
-				"paddi",
-				"padding-top"
-			],
-			[
 				"bac",
 				"background-color"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"border-botto",
@@ -98,10 +198,6 @@
 			[
 				"borders",
 				"border-style"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"inline",
@@ -164,10 +260,6 @@
 				"sPop(Item *&stack)	char"
 			],
 			[
-				"inp",
-				"inputFromKeyboard(Item *&stack)	void"
-			],
-			[
 				"sra",
 				"srand(unsigned int __seed)	void"
 			],
@@ -178,10 +270,6 @@
 			[
 				"b",
 				"begin()	iterator"
-			],
-			[
-				"e",
-				"empty() const	bool"
 			],
 			[
 				"ed",
@@ -256,10 +344,6 @@
 				"edgeEnd	int"
 			],
 			[
-				"d",
-				"dist	int"
-			],
-			[
 				"Gra",
 				"Gray	State"
 			],
@@ -276,22 +360,6 @@
 	"buffers":
 	[
 		{
-			"file": "menu.css",
-			"settings":
-			{
-				"buffer_size": 1012,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 830,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "common/db.php",
 			"settings":
 			{
@@ -303,7 +371,7 @@
 			"file": "common/menu.php",
 			"settings":
 			{
-				"buffer_size": 719,
+				"buffer_size": 786,
 				"line_ending": "Unix"
 			}
 		},
@@ -319,7 +387,7 @@
 			"file": "contacts/index.php",
 			"settings":
 			{
-				"buffer_size": 850,
+				"buffer_size": 839,
 				"line_ending": "Unix"
 			}
 		},
@@ -327,7 +395,7 @@
 			"file": "cource/index.php",
 			"settings":
 			{
-				"buffer_size": 726,
+				"buffer_size": 720,
 				"line_ending": "Unix"
 			}
 		},
@@ -335,7 +403,50 @@
 			"file": "tasks/index.php",
 			"settings":
 			{
-				"buffer_size": 4889,
+				"buffer_size": 5402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/split.cpp",
+			"settings":
+			{
+				"buffer_size": 902,
+				"line_ending": "Unix",
+				"name": "split.cpp"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/addtask/index.php",
+			"settings":
+			{
+				"buffer_size": 8636,
+				"line_ending": "Unix",
+				"name": "index.php"
+			}
+		},
+		{
+			"file": "tasks/tests.txt",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix",
+				"name": "1 2"
+			}
+		},
+		{
+			"file": "tasks/addtask/house.php",
+			"settings":
+			{
+				"buffer_size": 19976,
 				"line_ending": "Unix"
 			}
 		},
@@ -348,19 +459,77 @@
 			}
 		},
 		{
-			"file": "tasks/timelimit.txt",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "theory/index.php",
 			"settings":
 			{
 				"buffer_size": 1318,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "1-gdb-show interpreter\n=thread-group-added,id=\"i1\"\n~\"GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1\\n\"\n~\"Copyright (C) 2014 Free Software Foundation, Inc.\\n\"\n~\"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\nThis is free software: you are free to change and redistribute it.\\nThere is NO WARRANTY, to the extent permitted by law.  Type \\\"show copying\\\"\\nand \\\"show warranty\\\" for details.\\n\"\n~\"This GDB was configured as \\\"x86_64-linux-gnu\\\".\\nType \\\"show configuration\\\" for configuration details.\"\n~\"\\nFor bug reporting instructions, please see:\\n\"\n~\"<http://www.gnu.org/software/gdb/bugs/>.\\n\"\n~\"Find the GDB manual and other documentation resources online at:\\n<http://www.gnu.org/software/gdb/documentation/>.\\n\"\n~\"For help, type \\\"help\\\".\\n\"\n~\"Type \\\"apropos word\\\" to search for commands related to \\\"word\\\"...\\n\"\n&\"./make: No such file or directory.\\n\"\n&\"/home/taras/run: No such file or directory.\\n\"\n(gdb)\n1^error,msg=\"Undefined show command: \\\"interpreter\\\".  Try \\\"help show\\\".\"\n(gdb)\n2-inferior-tty-set /tmp/tmpE1c0by\n2^done\n(gdb)\n3-gdb-set target-async 1\n4-gdb-set pagination off\n3^done\n5-gdb-set disassembly-flavor intel\n(gdb)\n4^done\n(gdb)\n6-exec-run\n5^done\n(gdb)\n6^error,msg=\"No executable file specified.\\nUse the \\\"file\\\" or \\\"exec-file\\\" command.\"\n(gdb)\n",
+			"settings":
+			{
+				"buffer_size": 1303,
+				"line_ending": "Unix",
+				"name": "GDB Session",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1\nCopyright (C) 2014 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.  Type \"show copying\"\nand \"show warranty\" for details.\nThis GDB was configured as \"x86_64-linux-gnu\".\nType \"show configuration\" for configuration details.\nFor bug reporting instructions, please see:\n<http://www.gnu.org/software/gdb/bugs/>.\nFind the GDB manual and other documentation resources online at:\n<http://www.gnu.org/software/gdb/documentation/>.\nFor help, type \"help\".\nType \"apropos word\" to search for commands related to \"word\"...\n",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Unix",
+				"name": "GDB Console",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "GDB Variables",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "GDB Callstack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "GDB Threads",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "GDB Breakpoints",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -388,11 +557,37 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/cursach/tasks/addtask/t_in.txt",
+		"/var/www/html/cursach/tasks/addtask/ex_in.txt",
+		"/var/www/html/cursach/tasks/exo1",
+		"/var/www/html/cursach/tasks/exout.txt",
+		"/var/www/html/cursach/tasks/exi1",
+		"/var/www/html/cursach/tasks/ex1",
+		"/var/www/html/cursach/tasks/ex2",
+		"/var/www/html/cursach/tasks/exin.txt",
+		"/mnt/data/Downloads/DijkstraSP.h",
+		"/var/www/html/cursach/tasks/t3",
+		"/var/www/html/cursach/tasks/t2",
+		"/var/www/html/cursach/tasks/t1",
+		"/var/www/html/cursach/menu.css",
+		"/home/taras/dev/anp/2 semestr/lab7/tree.h",
+		"/home/taras/dev/anp/2 semestr/lab7/tree.cpp",
+		"/mnt/data/Downloads/lab8.cpp",
+		"/mnt/data/Downloads/1.txt",
+		"/var/www/html/cursach/tasks/t4",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/while(-).sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/foreach(-).sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/do-while(-).sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/switch(-).sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/elseif(-).sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/for(-).sublime-snippet",
+		"/home/taras/.config/sublime-text-2/Packages/PHP/if(-).sublime-snippet",
+		"/home/taras/dev/anp/belyash/jac.cpp",
+		"/var/www/html/cursach/tasks/timelimit.txt",
 		"/home/taras/a.cpp",
 		"/var/www/html/cursach/tasks/1",
 		"/home/taras/Downloads/Iskhodny_kod (2).cpp",
 		"/home/taras/the_log",
-		"/var/www/html/cursach/tasks/timelimit.txt",
 		"/var/www/html/cursach/tasks/check_sol.sh",
 		"/home/taras/Downloads/res",
 		"/home/taras/uploads/timeout.cpp",
@@ -441,7 +636,6 @@
 		"/home/taras/dev/anp/2 semestr/lab7/makefile",
 		"/home/taras/dev/anp/2 semestr/lab4/makefile",
 		"/etc/phpmyadmin/apache.conf",
-		"/home/taras/dev/anp/2 semestr/lab7/tree.cpp",
 		"/home/taras/dev/anp/2 semestr/lab5/makefile",
 		"/home/taras/dev/anp/2 semestr/bevz/input.txt",
 		"/home/taras/dev/anp/2 semestr/bevz/lab4.cpp",
@@ -490,32 +684,7 @@
 		"/home/taras/dev/discrette/lab7/graph.h",
 		"/home/taras/dev/discrette/lab7/graph.cpp",
 		"/home/taras/dev/discrette/lab7/node.cpp",
-		"/home/taras/dev/discrette/lab7/edge.h",
-		"/home/taras/dev/discrette/lab7/node.h",
-		"/home/taras/dev/discrette/lab7/graph_07_1.txt",
-		"/home/taras/dev/discrette/lab5/graph_07_1.txt",
-		"/home/taras/dev/discrette/lab5/Makefile",
-		"/home/taras/dev/discrette/lab5/pos.cpp",
-		"/home/taras/dev/discrette/lab5/edge.cpp",
-		"/home/taras/dev/discrette/lab5/pos.h",
-		"/home/taras/dev/discrette/lab5/.h",
-		"/home/taras/dev/lab7/man.txt",
-		"/home/taras/dev/lab7/pos.cpp",
-		"/home/taras/dev/lab7/pos.h",
-		"/home/taras/dev/lab7/edge.cpp",
-		"/home/taras/dev/lab7/edge.h",
-		"/home/taras/dev/lab7/node.cpp",
-		"/home/taras/dev/lab7/node.h",
-		"/home/taras/dev/lab7/graph.cpp",
-		"/home/taras/dev/lab7/graph.h",
-		"/home/taras/dev/lab7/main.cpp",
-		"/home/taras/city-simulator/input/map.in",
-		"/home/taras/city-simulator/input/rel.in",
-		"/home/taras/lab7/graph_07_1.txt",
-		"/home/taras/input.txt",
-		"/home/taras/dev/investigation/glut init/initGLUT.cpp",
-		"/home/taras/.config/sublime-text-2/Packages/C++/C++.sublime-build",
-		"/home/taras/flash/Lab4/Lab4/main.cpp"
+		"/home/taras/dev/discrette/lab7/edge.h"
 	],
 	"find":
 	{
@@ -533,6 +702,73 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"e",
+			"ex",
+			"ex_in",
+			"'",
+			"`",
+			"lim",
+			"time",
+			"$",
+			"`",
+			"t_num",
+			"\"",
+			"countExamples",
+			"test_num",
+			"changeTsNum",
+			"=",
+			" = ",
+			"style",
+			"type",
+			"50px",
+			"examples",
+			"ex",
+			"exampleLimit",
+			"curExampleId",
+			"countExamples",
+			"maxFieldLimit",
+			"curFieldNameId",
+			"countOfFields",
+			"tr",
+			"deleteField",
+			"\\n",
+			"tr",
+			"parentId",
+			"examples",
+			"'del'",
+			"del",
+			"300px",
+			"195px",
+			"\\\"",
+			"195px",
+			"addtas",
+			"ad",
+			"padding",
+			"del",
+			"додати тест",
+			"X",
+			"addtask",
+			"parentId",
+			"padding",
+			"id",
+			"    ",
+			"допо",
+			"<? $root ?>",
+			"X",
+			"видалити",
+			"div",
+			"2",
+			"col",
+			"<td>",
+			"td",
+			"deleteField",
+			"n",
+			"tmp",
+			"outname",
+			"першого",
+			"<td>",
+			"нас",
+			"			<",
 			" ",
 			" ",
 			" ",
@@ -593,74 +829,7 @@
 			"cerr",
 			"root",
 			"cerr",
-			"root",
-			"input",
-			"Tree",
-			"Item",
-			"false",
-			"queue",
-			"lab5",
-			"cout",
-			"int",
-			"* &",
-			" < ",
-			" = ",
-			"\\+\\+i",
-			" >> ",
-			" << ",
-			" \\(",
-			");\n",
-			"{",
-			"\n{",
-			"\\{.*\\}",
-			"20",
-			"tail",
-			"head",
-			"name",
-			");\n",
-			"stack2",
-			"stack1",
-			"sPop",
-			"q.head",
-			"name",
-			"q",
-			"value",
-			"Item()",
-			"q->",
-			"->",
-			"q->",
-			"data",
-			"st",
-			"start",
-			"-1",
-			"5 ",
-			"state = ",
-			"c->dest->begin",
-			"n",
-			"c->dest->end",
-			"c->pos->end",
-			"TInside",
-			"TBorder",
-			"c->temp.",
-			"border",
-			"i->end->temp.",
-			"road",
-			"RoadRef",
-			"invC",
-			" ",
-			"Edge",
-			"Node",
-			"1",
-			"lab7",
-			"all",
-			"lab5",
-			"(*i)",
-			" pos.o",
-			"main",
-			"12",
-			"15",
-			"14",
-			"15"
+			"root"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -678,65 +847,11 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "menu.css",
-					"settings":
-					{
-						"buffer_size": 1012,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								464,
-								464
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "style.css",
-					"settings":
-					{
-						"buffer_size": 830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "common/db.php",
 					"settings":
 					{
@@ -762,19 +877,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "common/menu.php",
 					"settings":
 					{
-						"buffer_size": 719,
+						"buffer_size": 786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								690,
+								690
 							]
 						],
 						"settings":
@@ -789,7 +904,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "index.php",
 					"settings":
 					{
@@ -800,8 +915,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								444,
+								444
 							]
 						],
 						"settings":
@@ -810,52 +925,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "contacts/index.php",
 					"settings":
 					{
-						"buffer_size": 850,
+						"buffer_size": 839,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "cource/index.php",
-					"settings":
-					{
-						"buffer_size": 726,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								646,
-								646
+								37,
+								37
 							]
 						],
 						"settings":
@@ -870,19 +958,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "tasks/index.php",
+					"buffer": 4,
+					"file": "cource/index.php",
 					"settings":
 					{
-						"buffer_size": 4889,
+						"buffer_size": 720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3033,
-								3082
+								5,
+								5
 							]
 						],
 						"settings":
@@ -891,13 +979,178 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2499.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "tasks/index.php",
+					"settings":
+					{
+						"buffer_size": 5402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5054,
+								5054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4680.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "tasks/split.cpp",
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"auto_name": "split.cpp",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 1104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1102,
+								1102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2552.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
+					"file": "tasks/addtask/index.php",
+					"settings":
+					{
+						"buffer_size": 8636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8293,
+								8293
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.php",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5508.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tasks/tests.txt",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"auto_name": "1 2",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "tasks/addtask/house.php",
+					"settings":
+					{
+						"buffer_size": 19976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16593,
+								16593
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17799.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "tasks/check_sol.sh",
 					"settings":
 					{
@@ -923,33 +1176,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "tasks/timelimit.txt",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "theory/index.php",
 					"settings":
 					{
@@ -970,7 +1197,176 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 708.0,
+						"translation.y": 618.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 13,
+					"settings":
+					{
+						"buffer_size": 1303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1303,
+								1303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeGDB/gdb_session.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21660.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 16,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 17,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -984,7 +1380,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"layout":
 	{
@@ -993,18 +1389,39 @@
 			[
 				0,
 				0,
-				1,
+				3,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			],
+			[
+				2,
+				1,
+				3,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.75,
 			1.0
 		]
 	},
@@ -1019,7 +1436,7 @@
 	},
 	"output.exec":
 	{
-		"height": 377.0
+		"height": 143.0
 	},
 	"replace":
 	{

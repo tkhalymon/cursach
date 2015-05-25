@@ -11,7 +11,7 @@ $task_num = mysql_fetch_array($tmp)[0];
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>/menu.css">
 	<meta http-equiv = "content-type" content = "text/html" charset = "utf-8">
-	<title>ACM Online Cource</title>
+	<title>Задачі</title>
 </head>
 <body>
 <?php
@@ -33,8 +33,11 @@ echo "\n".'<table>
 }
 if (!isset($_GET["sort"]))
 {
-// echo "default is sorting by difficulty<br>\n";
 	$_GET["sort"] = "diff";
+}
+if (isset($_GET["rm"]))
+{
+	mysql_query("DELETE FROM tasks WHERE id = ".$_GET["rm"]);
 }
 if (isset($_GET['t']))
 {
@@ -50,14 +53,25 @@ if (isset($_GET['t']))
 	echo "<td>Вхідні дані</td>\n";
 	echo "<td>Вихідні дані</td>\n";
 	echo "</tr>\n";
-	echo "<tr>\n";
-	echo '<td>'.$task['input1']."</td>\n";
-	echo '<td>'.$task['output1']."</td>\n";
-	echo "</tr>\n";
-	echo "<tr>\n";
-	echo '<td>'.$task['input2']."</td>\n";
-	echo '<td>'.$task['output2']."</td>\n";
-	echo "</tr>\n";
+	$exin = fopen("exin.txt", "w");
+	fwrite($exin, $task["example_in"]);
+	$exout = fopen("exout.txt", "w");
+	fwrite($exout, $task["example_out"]);
+	exec ("./split exin.txt exi ./");
+	$num = exec ("./split exout.txt exo ./");
+	fwrite($exin, $task["example_in"]);
+	for ($i = 1; $i <= $num; $i++)
+	{
+		echo "<tr>\n";
+		echo '<td>'.file_get_contents("exi$i")."</td>\n";
+		echo '<td>'.file_get_contents("exo$i")."</td>\n";
+		echo "</tr>\n";
+	}
+	exec("rm exi* exo*");
+	// echo "<tr>\n";
+	// // echo '<td>'.$task['input2']."</td>\n";
+	// // echo '<td>'.$task['output2']."</td>\n";
+	// echo "</tr>\n";
 	echo "</table>\n";
 	$tmp = mysql_query('SELECT name FROM topics WHERE id = '.$task['topic']);
 	$topic_name = mysql_fetch_array($tmp)[0];
