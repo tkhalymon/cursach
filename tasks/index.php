@@ -1,8 +1,9 @@
 <?php
+$admin = true;
 $root = "..";
 include $root.'/common/db.php';
 dbConnect();
-$tmp = mysql_query('SELECT count(*) FROM tasks');
+$tmp = mysql_query('SELECT * FROM tasks ORDER BY id DESC LIMIT 0, 1');
 $task_num = mysql_fetch_array($tmp)[0];
 ?>
 <html>
@@ -41,6 +42,7 @@ if (isset($_GET["rm"]))
 }
 if (isset($_GET['t']))
 {
+	echo "<a href = '?sort='".$_GET["sort"].">Return</a>";
 	$tmp = mysql_query('SELECT * FROM tasks WHERE id = '.$_GET['t']);
 	$task = mysql_fetch_array($tmp);
 	echo '<h1>'.$task['name']."</h1>\n";
@@ -79,9 +81,6 @@ if (isset($_GET['t']))
 	echo '<a href = "../theory/?t='.$task['topic'].'">'.$topic_name.'</a></p>';
 	if (empty($_FILES["sol_file"]["name"]))
 	{
-		// echo "<a href='http://hometasks.zz.mu/correct.cpp'>правильно<br></a>";
-		// echo "<a href='http://hometasks.zz.mu/incorrect.cpp'>не правильно<br></a>";
-		// echo "<a href='http://hometasks.zz.mu/timeout.cpp'>ліміт часу<br></a>";
 		outp_form();
 	}
 	else
@@ -91,6 +90,9 @@ if (isset($_GET['t']))
 		$target = "uploads/".$filename;
 		move_uploaded_file($source, $target);
 		echo '<p>';
+		$correct = true;
+		$timelimit = true;
+		$compile = true;
 		if (file_exists($target))
 		{
 			exec ("g++ $target");
@@ -100,43 +102,65 @@ if (isset($_GET['t']))
 				// get solution cpp file from database
 				$tmp = mysql_query('SELECT * FROM tasks WHERE id = '.$_GET['t']);
 				$task = mysql_fetch_array($tmp);
-				$solfile = fopen("sol.cpp", "w");
-				fwrite($solfile, $task['solution']);
-				exec("g++ sol.cpp -o sol");
+				// $solfile = fopen("sol.cpp", "w");
+				// fwrite($solfile, $task['solution']);
+				// exec("g++ sol.cpp -o sol");
 				// read test from database
-				exec("echo '1 4' > test.txt");
-				exec("./check_sol.sh ".$task['timelimit']);
-				if (file_get_contents("timelimit.txt") != '')
-				{
-					exec("cat test.txt | ./sol > sol_res.txt");
-					exec("rm -f result.txt");
-					exec("echo 'user_res.txt sol_res.txt' | ./cmp > result.txt");
-					if (file_get_contents("result.txt") != '')
+
+				$tin = fopen("tin.txt", "w");
+				fwrite($tin, $task['test_in']);
+				$tout = fopen("tout.txt", "w");
+				fwrite($tout, $task['test_out']);
+
+				exec ("./split tin.txt tin ./");
+				$num = exec ("./split tout.txt tout ./");
+
+				for ($i = 1; $i <= $num; $i++)
+				{	
+					exec("./check_sol.sh tin$i ".$task['timelimit']);
+					if (file_get_contents("timelimit.txt") != '')
 					{
-						echo 'Відповідь не правильна';
-						outp_form();
-						echo "todo: add info";
+						exec("rm -f result.txt");
+						exec("echo 'user_res.txt tout$i' | ./cmp > result.txt");
+						if (file_get_contents("result.txt") != '')
+						{
+							$correct = false;
+							break;
+						}
 					}
 					else
 					{
-						echo 'Відповідь правильна';
+						$timelimit = false;
+						break;
 					}
-					exec ("rm -f sol_res.txt test.txt user_res.txt");
+					exec("rm -f timelimit.txt");
 				}
-				else
-				{
-					echo 'Час виконання завеликий';
-					outp_form();
-				}
-				exec("rm -f timelimit.txt");
 			}
 			else
 			{
-				echo 'Помилка компіляції';
-				outp_form();
-				echo "<pre>\tРезультат виконання:\n".file_get_contents("result.txt").'</pre>';
+				$compile = false;
 			}
-			// exec("rm -f a.out sol timelimit.txt sol_res.txt user_res.txt test.txt sol.cpp result.txt");
+			if ($compile == false)
+			{
+				echo "Помилка компіляції";
+				echo "<pre>\tРезультат виконання:\n".file_get_contents("result.txt").'</pre>';
+				outp_form();
+			}
+			else if ($timelimit == false)
+			{
+				echo "Час виконання завеликий";
+				outp_form();
+			}
+			else if ($correct == false)
+			{
+				echo "Відповідь не правильна (тест $i)";
+				outp_form();
+			}
+			else
+			{
+				echo "Відповідь правильна";
+			}
+			exec("rm -f a.out timelimit.txt user_res.txt result.txt tin* tout*");
 			exec("rm -f a.out result.txt sol sol.cpp");
 			unlink($target);
 		}
@@ -147,33 +171,91 @@ else
 {
 	switch ($_GET["sort"])
 	{
-	case 'name':
-		echo '<h1>Завдання відсортовані за іменем</h1>';
-		echo '<p>Ви можете швидко знайти конкретну задачу за її назвою</p>';
-	break;
-	case 'diff':
-		echo '<h1>Завдання відсортовані за складністю</h1>';
-		echo '<p>Ви можете збільшуючи складність поступово підвищувати свій рівень</p>';
-		break;
 	case 'topic':
-		echo '<h1>Завдання відсортовані за категоріями</h1>';
-		echo '<p>Ви можете покращити свої навички розв’язання задач певних видів</p>';
-		break;
-	}
-	echo '<ul>';
-	for ($i = 0; $i < $task_num; $i++)
-	{
-		echo '<li>';
-		$tmp = mysql_query('SELECT name FROM tasks WHERE id = '.($i + 1));
-		// echo "string";
-		$task = mysql_fetch_array($tmp);
-		if (isset($_GET['sort']))
-			echo ($i + 1).'. <a href = "'.$root.'/tasks/?t='.($i + 1).'&sort='.$_GET['sort'].'">'.$task['name'].'</a>';
+		if (isset($_GET["topic"]))
+		{
+			$tmp = mysql_query('SELECT name FROM topics WHERE id = '.$_GET["topic"]);
+			$topic = mysql_fetch_array($tmp);
+			$id = 1;
+			echo $topic['name'];
+			echo '<ul>';
+			for ($i = 0; $i < $task_num; $i++)
+			{
+				$tmp = mysql_query('SELECT name, topic FROM tasks WHERE id = '.($i + 1));
+				$task = mysql_fetch_array($tmp);
+				if ($task['name'] != '' && $task['topic'] == $_GET['topic'])
+				{
+					echo '<li>';
+					if (isset($_GET['sort']))
+					{
+						if ($admin == true)
+						{
+							echo "<a href = '?rm=".($i + 1)."'><img src = '$root/del.png'></a> <a href = 'edittask?t=".($i + 1)."'><img src = '$root/edit.png'></a> ";
+						}
+						echo ($id).'. <a href = "'.$root.'/tasks/?t='.($i + 1).'&sort='.$_GET['sort'].'">'.$task['name'].'</a>';
+					}
+					else
+					{
+						if ($admin == true)
+						{
+							echo "<a href = '?rm=".($i + 1)."'><img src = '$root/del.png'></a> <a href = 'edittask?t=".($i + 1)."'><img src = '$root/edit.png'></a> ";
+						}
+						echo ($id).'. <a href = "'.$root.'/tasks/?t='.($i + 1).'>'.$task['name'].'</a>';
+					}
+					echo '</li>';
+					$id++;
+				}
+			}
+			echo '</ul>';
+		}
 		else
-			echo ($i + 1).'. <a href = "'.$root.'/tasks/?t='.($i + 1).'">'.$task['name'].'</a>';
-		echo '</li>';
+		{
+			$tmp = mysql_query("SELECT COUNT(*) FROM topics");
+			$topic_num = mysql_fetch_array($tmp)[0];
+			echo '<ul>';
+			for ($j = 1; $j <= $topic_num; $j++)
+			{
+				$tmp = mysql_query('SELECT name FROM topics WHERE id = '.$j);
+				$topic = mysql_fetch_array($tmp);
+				echo '<li style = "padding-left: 50px; font-size: 30px;">';
+				echo "<a href = '?sort=topic&topic=$j'>".$topic['name']."</a>";
+				echo '</li>';
+			}
+			echo '</ul>';
+		}
+		break;
+	default:
+		echo '<ul>';
+		$id = 1;
+		for ($i = 0; $i < $task_num; $i++)
+		{
+			$tmp = mysql_query('SELECT name FROM tasks WHERE id = '.($i + 1));
+			$task = mysql_fetch_array($tmp);
+			if ($task['name'] != '')
+			{
+				echo '<li>';
+				if (isset($_GET['sort']))
+				{
+					if ($admin == true)
+					{
+						echo "<a href = '?rm=".($i + 1)."'><img src = '$root/del.png'></a> <a href = 'edittask?t=".($i + 1)."'><img src = '$root/edit.png'></a> ";
+					}
+					echo ($id).'. <a href = "'.$root.'/tasks/?t='.($i + 1).'&sort='.$_GET['sort'].'">'.$task['name'].'</a>';
+				}
+				else
+				{
+					if ($admin == true)
+					{
+						echo "<a href = '?rm=".($i + 1)."'><img src = '$root/del.png'></a> <a href = 'edittask?t=".($i + 1)."'><img src = '$root/edit.png'></a> ";
+					}
+					echo ($id).'. <a href = "'.$root.'/tasks/?t='.($i + 1).'>'.$task['name'].'</a>';
+				}
+				echo '</li>';
+				$id++;
+			}
+		}
+		echo '</ul>';
 	}
-	echo '</ul>';
 }
 ?>
 

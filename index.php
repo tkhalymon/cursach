@@ -10,7 +10,7 @@ $task_num = mysql_fetch_array($tmp)[0];
 	<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
 	<link rel = 'stylesheet' type = 'text/css' href = 'menu.css'>
 	<meta http-equiv = 'content-type' content = 'text/html' charset = 'utf-8'>
-	<title>ACM Online Cource</title>
+	<title>Головна</title>
 </head>
 <body>
 	<?php

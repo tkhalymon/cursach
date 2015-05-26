@@ -1,4 +1,4 @@
 #!/bin/bash
-cat test.txt | ./a.out > user_res.txt && killall sleep &
-sleep $1
+cat $1 | ./a.out > user_res.txt && killall sleep &
+sleep $2
 killall a.out 2> timelimit.txt

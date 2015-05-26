@@ -23,10 +23,7 @@ $root = "..";
 			Сердюк Євгеній Олександрович IC-4124
 		</p>
 		<p>
-			Халимон Тарас Юрійович IC-4128
-		</p>
-		<p>
-			Email: taras.khalymon@gmail.com
+			Халимон Тарас Юрійович IC-4128 taras.khalymon@gmail.com
 		</p>
 	</div>
 </body>

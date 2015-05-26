@@ -1,6 +1,22 @@
 <?php
 $root = "../..";
 include $root.'/common/db.php';
+dbConnect();
+$tmp = mysql_query('SELECT * FROM tasks WHERE id = '.$_GET['t']);
+$task = mysql_fetch_array($tmp);
+$ein = fopen("ein.txt", "w");
+fwrite($ein, $task['example_in']);
+$eout = fopen("eout.txt", "w");
+fwrite($eout, $task['example_out']);
+exec ("./split ein.txt ein ./");
+$exnum = exec ("./split eout.txt eout ./");
+$tin = fopen("tin.txt", "w");
+fwrite($tin, $task['test_in']);
+$tout = fopen("tout.txt", "w");
+fwrite($tout, $task['test_out']);
+exec ("./split tin.txt tin ./");
+$tnum = exec ("./split tout.txt tout ./");
+mysql_close();
 ?>
 <html>
 <head>
@@ -8,11 +24,11 @@ include $root.'/common/db.php';
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>/menu.css">
 	<meta http-equiv = "content-type" content = "text/html" charset = "utf-8">
-	<title>Додати завдання</title>
+	<title>Змінити завдання</title>
 
 <script>
-var countExamples = 1; // Текущее число полей
-var curExampleId = 1; // Уникальное значение для атрибута name
+var countExamples = <?php echo $exnum;?>; // Текущее число полей
+var curExampleId = <?php echo $exnum;?>; // Уникальное значение для атрибута name
 var exampleLimit = 5; // Максимальное число возможных полей
 function deleteExample(ex)
 {
@@ -50,8 +66,8 @@ function addExample()
 	// Возвращаем false, чтобы не было перехода по сслыке
 	return false;
 }
-var countTests = 1; // Текущее число полей
-var curTestId = 1; // Уникальное значение для атрибута name
+var countTests = <?php echo $tnum;?>; // Текущее число полей
+var curTestId = <?php echo $tnum;?>; // Уникальное значение для атрибута name
 var testLimit = 50; // Максимальное число возможных полей
 function deleteTest(tst)
 {
@@ -118,7 +134,7 @@ if (!isset($_POST['e_num']))
 			Назва
 		</td>
 		<td class = 'fvalue' colspan = 2>
-			<input type = 'text' name = 'name' style = 'width: 100%' placeholder = 'Назва задачі'>
+			<input type = 'text' name = 'name' value = '".$task['name']."' style = 'width: 100%' placeholder = 'Назва задачі'>
 		</td>
 	</tr>
 	<tr>
@@ -126,7 +142,7 @@ if (!isset($_POST['e_num']))
 			Ліміт часу
 		</td>
 		<td class = 'fvalue' colspan = 2>
-			<input type = 'int' name = 'tlimit' value = '1'>
+			<input type = 'int' name = 'tlimit' value = '".$task['timelimit']."'>
 		</td>
 	</tr>
 	<tr>
@@ -135,7 +151,7 @@ if (!isset($_POST['e_num']))
 		</td>
 	<td class = 'fvalue' colspan = 2>
 	<select name = 'topic'>
-	<option selected value = '0'>Виберіть тему</option>";
+	<option value = '0'>Виберіть тему</option>";
 	dbConnect();
 	$tmp = mysql_query('SELECT count(*) FROM topics');
 	$topic_num = mysql_fetch_array($tmp)[0];
@@ -143,7 +159,14 @@ if (!isset($_POST['e_num']))
 	{
 		$tmp = mysql_query('SELECT id, name FROM topics WHERE id = '.$i);
 		$topic = mysql_fetch_array($tmp);
-		echo '<option value = '.$i.'>'.$topic["name"]."</option>\n";
+		if ($task['timelimit'] == $i)
+		{
+			echo '<option selected value = '.$i.'>'.$topic["name"]."</option>\n";
+		}
+		else
+		{
+			echo '<option value = '.$i.'>'.$topic["name"]."</option>\n";
+		}
 	}
 	mysql_close();
 	echo "
@@ -155,27 +178,33 @@ if (!isset($_POST['e_num']))
 			Текст
 		</td>
 		<td class = 'fvalue' colspan = 2>
-			<textarea name = 'prob' style = 'width: 100%; height: 200px;' placeholder = 'Текст задачі'></textarea>
+			<textarea name = 'prob' style = 'width: 100%; height: 200px;' placeholder = 'Текст задачі'>".$task['prob']."</textarea>
 		</td>
 	</tr>
 	</table>
 	Приклади до завдання
 	<div id = 'eNum'>
-		<input type = 'hidden' name = 'e_num' value = 1>
+		<input type = 'hidden' name = 'e_num' value = $exnum>
 	</div>
 	<table id = 'examples'>
-	<tr>
-		<td class = 'fname'></td>
-		<td class = 'fvalue'  style = 'vertical-align: middle; width: 500px;'>
-			<textarea name = 'ein1' type='text' style='width:247px; height:50px; margin-top:5px;'></textarea>
-			<textarea name = 'eout1' type='text' style='width:247px; height:50px; margin-top:5px;'></textarea>
-		</td>
-		<td class = 'fdel'>
-			<a style = 'text-decoration:none;' onclick='return deleteExample(this)' href='#'>
-				<img style = 'padding-top: 0px' src = '".$root."/del.png'>
-			</a>
-		</td>
-	</tr>
+	";
+	for ($i = 1; $i <= $exnum; $i++)
+	{
+		echo "
+		<tr>
+			<td class = 'fname'></td>
+			<td class = 'fvalue'  style = 'vertical-align: middle; width: 500px;'>
+				<textarea name = 'ein$i' type='text' style='width:247px; height:50px; margin-top:5px;'>".file_get_contents("ein$i")."</textarea>
+				<textarea name = 'eout$i' type='text' style='width:247px; height:50px; margin-top:5px;'>".file_get_contents("eout$i")."</textarea>
+			</td>
+			<td class = 'fdel'>
+				<a style = 'text-decoration:none;' onclick='return deleteExample(this)' href='#'>
+					<img style = 'padding-top: 0px' src = '".$root."/del.png'>
+				</a>
+			</td>
+		</tr>";
+	}
+	echo "
 	</table>
 	<div style = 'margin-left: 220px; width: 300px; vertical-align: middle;'>
 		<center>
@@ -184,21 +213,29 @@ if (!isset($_POST['e_num']))
 	</div>
 	Тести
 	<div id = 'tNum'>
-		<input type = 'hidden' name = 't_num' value = 1>
+		<input type = 'hidden' name = 't_num' value = $tnum>
 	</div>
-	<table id = 'tests'>
-	<tr>
-		<td class = 'fname'></td>
-		<td class = 'fvalue'  style = 'vertical-align: middle; width: 500px;'>
-			<textarea name = 'tin1' type = 'text' style = 'width:247px; height:50px; margin-top:5px;'></textarea>
-			<textarea name = 'tout1' type = 'text' style = 'width:247px; height:50px; margin-top:5px;'></textarea>
-		</td>
-		<td class = 'fdel'>
-			<a style = 'text-decoration:none;' onclick='return deleteTest(this)' href='#'>
-				<img style = 'padding-top: 0px' src = '".$root."/del.png'>
-			</a>
-		</td>
-	</tr>
+	<table id = 'tests'>";
+
+
+
+	for ($i = 1; $i <= $tnum; $i++)
+	{
+		echo "
+		<tr>
+			<td class = 'fname'></td>
+			<td class = 'fvalue'  style = 'vertical-align: middle; width: 500px;'>
+				<textarea name = 'tin$i' type = 'text' style = 'width:247px; height:50px; margin-top:5px;'>".file_get_contents("tin$i")."</textarea>
+				<textarea name = 'tout$i' type = 'text' style = 'width:247px; height:50px; margin-top:5px;'>".file_get_contents("tout$i")."</textarea>
+			</td>
+			<td class = 'fdel'>
+				<a style = 'text-decoration:none;' onclick='return deleteTest(this)' href='#'>
+					<img style = 'padding-top: 0px' src = '".$root."/del.png'>
+				</a>
+			</td>
+		</tr>";
+	}
+	echo "
 	</table>
 	<div style = 'margin-left: 220px; width: 300px; vertical-align: middle;'>
 		<center>
@@ -207,6 +244,7 @@ if (!isset($_POST['e_num']))
 		</center>
 	</div>
 	</form>";
+	exec("rm ein* eout*");
 }
 else
 {
@@ -267,11 +305,12 @@ else
 		$topic = $_POST['topic'];
 		$tlimit = $_POST['tlimit'];
 		dbConnect();
-		mysql_query("INSERT INTO tasks (name, prob, example_in, example_out, test_in, test_out, topic, timelimit) VALUES ('$name', '$prob', '$ein', '$eout', '$t_in', '$t_out', '$topic', '$tlimit');");
+		mysql_query("UPDATE tasks SET name = '$name', prob = '$prob', example_in = '$ein', example_out = '$eout', test_in = '$t_in', test_out = '$t_out', topic = '$topic', timelimit = '$tlimit' WHERE id = ".$_GET['t']);
 		mysql_close();
-		echo "Задача додана";
+		echo "Задача оновлена";
 	}
 }
+exec("rm ein* eout* tin* tout*");
 ?>
 </div>
 </body>

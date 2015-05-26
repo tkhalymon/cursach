@@ -7,10 +7,8 @@ echo '<div class = "logo">
 	<li><a href = "'.$root.'/">Головна</a></li>
 	<li><a href = "'.$root.'/tasks'; if (isset($_GET['sort'])) echo '/?sort='.$_GET['sort'];echo'">Завдання</a>
 		<ul class="submenu">
-			<li>Сортувати за:</li>
-			<li><a href = "'.$root.'/tasks/?sort=name">Ім’ям</a></li>
-			<li><a href = "'.$root.'/tasks/?sort=diff">Складністю</a></li>
-			<li><a href = "'.$root.'/tasks/?sort=topic">Категоріями</a></li>
+			<li><a href = "'.$root.'/tasks/?sort=name">Всі задачі</a></li>
+			<li><a href = "'.$root.'/tasks/?sort=topic">Сортувати за темами</a></li>
 			<li><a href = "'.$root.'/tasks/addtask">Додати завдачу</a></li>
 		</ul>
 	</li>
