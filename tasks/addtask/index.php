@@ -1,6 +1,5 @@
 <?php
 $root = "../..";
-include $root.'/common/db.php';
 ?>
 <html>
 <head>

@@ -73,7 +73,8 @@ td
 	border: solid;
 	border-width: 1px;
 	text-align: justify;
-	padding: 0;
+	padding: 2px;
+	vertical-align: top;
 }
 
 table
@@ -103,5 +104,7 @@ table
 
 pre
 {
-	font: inherit;
+	/*font: inherit;*/
+	font-family: monospace;
+	font-size: 14px;
 }

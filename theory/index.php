@@ -1,9 +1,5 @@
 <?php
 $root = "..";
-include $root.'/common/db.php';
-dbConnect();
-$tmp = mysql_query('SELECT count(*) FROM topics');
-$topic_num = mysql_fetch_array($tmp)[0];
 ?>
 <html>
 <head>
@@ -14,7 +10,12 @@ $topic_num = mysql_fetch_array($tmp)[0];
 	<title>Теорія</title>
 </head>
 <body>
-	<?php include $root.'/common/menu.php'; ?>
+<?php
+include $root.'/common/menu.php';
+dbConnect();
+$tmp = mysql_query('SELECT count(*) FROM topics');
+$topic_num = mysql_fetch_array($tmp)[0];
+?>
 	<div class = "content">
 		<?php
 		if (isset($_GET['t']))
@@ -52,7 +53,7 @@ $topic_num = mysql_fetch_array($tmp)[0];
 				echo '<li>';
 				$tmp = mysql_query('SELECT * FROM topics WHERE id = '.($i + 1));
 				$topic = mysql_fetch_array($tmp);
-				echo "<a href = '?edit=".($i + 1)."'><img src = '$root/edit.png'></a> ";
+				// echo "<a href = '?edit=".($i + 1)."'><img src = '$root/edit.png'></a> ";
 				echo ($i + 1).'. <a href = "'.$root.'/theory/?t='.($i + 1).'">'.$topic['name'].'</a>';
 				echo '</li>';
 			}

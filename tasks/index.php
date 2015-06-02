@@ -1,10 +1,10 @@
 <?php
-$admin = true;
+$admin = false;
+if (isset($_GET['admin']) && $_GET['admin'] == '')
+{
+	$admin = true;
+}
 $root = "..";
-include $root.'/common/db.php';
-dbConnect();
-$tmp = mysql_query('SELECT * FROM tasks ORDER BY id DESC LIMIT 0, 1');
-$task_num = mysql_fetch_array($tmp)[0];
 ?>
 <html>
 <head>
@@ -17,6 +17,9 @@ $task_num = mysql_fetch_array($tmp)[0];
 <body>
 <?php
 include "$root/common/menu.php";
+dbConnect();
+$tmp = mysql_query('SELECT * FROM tasks ORDER BY id DESC LIMIT 0, 1');
+$task_num = mysql_fetch_array($tmp)[0];
 ?>
 	<div class = "content">
 <?php

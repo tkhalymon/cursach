@@ -1,22 +1,5 @@
 <?php
 $root = "../..";
-include $root.'/common/db.php';
-dbConnect();
-$tmp = mysql_query('SELECT * FROM tasks WHERE id = '.$_GET['t']);
-$task = mysql_fetch_array($tmp);
-$ein = fopen("ein.txt", "w");
-fwrite($ein, $task['example_in']);
-$eout = fopen("eout.txt", "w");
-fwrite($eout, $task['example_out']);
-exec ("./split ein.txt ein ./");
-$exnum = exec ("./split eout.txt eout ./");
-$tin = fopen("tin.txt", "w");
-fwrite($tin, $task['test_in']);
-$tout = fopen("tout.txt", "w");
-fwrite($tout, $task['test_out']);
-exec ("./split tin.txt tin ./");
-$tnum = exec ("./split tout.txt tout ./");
-mysql_close();
 ?>
 <html>
 <head>
@@ -121,7 +104,25 @@ function changeTsNum()
 </script>	
 </head>
 <body>
-<?php include "$root/common/menu.php"; ?>
+<?php
+include "$root/common/menu.php";
+dbConnect();
+$tmp = mysql_query('SELECT * FROM tasks WHERE id = '.$_GET['t']);
+$task = mysql_fetch_array($tmp);
+$ein = fopen("ein.txt", "w");
+fwrite($ein, $task['example_in']);
+$eout = fopen("eout.txt", "w");
+fwrite($eout, $task['example_out']);
+exec ("./split ein.txt ein ./");
+$exnum = exec ("./split eout.txt eout ./");
+$tin = fopen("tin.txt", "w");
+fwrite($tin, $task['test_in']);
+$tout = fopen("tout.txt", "w");
+fwrite($tout, $task['test_out']);
+exec ("./split tin.txt tin ./");
+$tnum = exec ("./split tout.txt tout ./");
+mysql_close();
+?>
 <div class = 'content'>
 <?php
 if (!isset($_POST['e_num']))
@@ -250,7 +251,6 @@ else
 {
 	$inputOk = true;
 	if ($_POST['name'] == "") $inputOk = false;
-	if ($_POST['prob'] == "") $inputOk = false;
 	if ($inputOk == false)
 	{
 		echo "Incorrect input";

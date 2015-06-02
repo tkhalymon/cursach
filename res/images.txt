@@ -12,8 +12,10 @@
 7.png
 8.png
 9.png
+acm_logo.png
 adj.png
 fibonaci.png
 images.txt
 index.php
 lotery.png
+асм.jpg

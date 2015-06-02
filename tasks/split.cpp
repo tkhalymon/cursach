@@ -25,10 +25,18 @@ int main(int argc, char const *argv[])
 	strcat(name, num);
 	output.open(name);
 	int n = 1;
+	char prev[256];
+	char prev2[256];
 	while (!input.eof())
 	{
 		char str[256];
+		strcpy(prev2, prev);
+		strcpy(prev2, str);
 		input.getline(str, 255);
+		if (strlen(prev2) < 2 && strlen(prev) < 2 && strlen(str) < 2)
+		{
+			
+		}
 		if (strncmp(str, "||", 2) == 0)
 		{
 			output.close();

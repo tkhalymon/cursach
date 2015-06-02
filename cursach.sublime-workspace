@@ -4,24 +4,48 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font"
+			],
+			[
 				"ex",
-				"ex_in"
+				"exec"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"topi",
+				"topic"
+			],
+			[
+				"mysq",
+				"mysql_close"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"topic",
+				"topics"
+			],
+			[
+				"echo",
+				"echo	echo \"…\""
 			],
 			[
 				"i",
 				"inherit"
 			],
 			[
-				"font",
-				"font"
-			],
-			[
 				"tas",
 				"tasks"
-			],
-			[
-				"mysq",
-				"mysql_error"
 			],
 			[
 				"inp",
@@ -46,10 +70,6 @@
 			[
 				"get",
 				"getElementById"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"paddi",
@@ -360,10 +380,10 @@
 	"buffers":
 	[
 		{
-			"file": "common/db.php",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 299,
+				"buffer_size": 1179,
 				"line_ending": "Unix"
 			}
 		},
@@ -371,15 +391,24 @@
 			"file": "common/menu.php",
 			"settings":
 			{
-				"buffer_size": 786,
+				"buffer_size": 1428,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/taras/studing.txt",
+			"settings":
+			{
+				"buffer_size": 2442,
+				"line_ending": "Unix",
+				"name": "studing.txt"
 			}
 		},
 		{
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1051,
+				"buffer_size": 3792,
 				"line_ending": "Unix"
 			}
 		},
@@ -387,7 +416,7 @@
 			"file": "contacts/index.php",
 			"settings":
 			{
-				"buffer_size": 839,
+				"buffer_size": 1620,
 				"line_ending": "Unix"
 			}
 		},
@@ -395,7 +424,33 @@
 			"file": "cource/index.php",
 			"settings":
 			{
-				"buffer_size": 720,
+				"buffer_size": 1351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cource/run/index.php",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Unix",
+				"name": "index.php"
+			}
+		},
+		{
+			"file": "cource/run/run.sh",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Unix",
+				"name": "run.sh"
+			}
+		},
+		{
+			"file": "cource/run/f.t",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -403,58 +458,33 @@
 			"file": "tasks/index.php",
 			"settings":
 			{
-				"buffer_size": 5402,
+				"buffer_size": 7173,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tasks/split.cpp",
+			"file": "res/index.php",
 			"settings":
 			{
-				"buffer_size": 902,
+				"buffer_size": 718,
 				"line_ending": "Unix",
-				"name": "split.cpp"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 1104,
-				"line_ending": "Unix"
+				"name": "addpicture.php"
 			}
 		},
 		{
 			"file": "tasks/addtask/index.php",
 			"settings":
 			{
-				"buffer_size": 8636,
+				"buffer_size": 8620,
 				"line_ending": "Unix",
 				"name": "index.php"
 			}
 		},
 		{
-			"file": "tasks/tests.txt",
+			"file": "tasks/edittask/index.php",
 			"settings":
 			{
-				"buffer_size": 19,
-				"line_ending": "Unix",
-				"name": "1 2"
-			}
-		},
-		{
-			"file": "tasks/addtask/house.php",
-			"settings":
-			{
-				"buffer_size": 19976,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tasks/check_sol.sh",
-			"settings":
-			{
-				"buffer_size": 108,
+				"buffer_size": 9742,
 				"line_ending": "Unix"
 			}
 		},
@@ -462,74 +492,8 @@
 			"file": "theory/index.php",
 			"settings":
 			{
-				"buffer_size": 1318,
+				"buffer_size": 2102,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "1-gdb-show interpreter\n=thread-group-added,id=\"i1\"\n~\"GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1\\n\"\n~\"Copyright (C) 2014 Free Software Foundation, Inc.\\n\"\n~\"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\nThis is free software: you are free to change and redistribute it.\\nThere is NO WARRANTY, to the extent permitted by law.  Type \\\"show copying\\\"\\nand \\\"show warranty\\\" for details.\\n\"\n~\"This GDB was configured as \\\"x86_64-linux-gnu\\\".\\nType \\\"show configuration\\\" for configuration details.\"\n~\"\\nFor bug reporting instructions, please see:\\n\"\n~\"<http://www.gnu.org/software/gdb/bugs/>.\\n\"\n~\"Find the GDB manual and other documentation resources online at:\\n<http://www.gnu.org/software/gdb/documentation/>.\\n\"\n~\"For help, type \\\"help\\\".\\n\"\n~\"Type \\\"apropos word\\\" to search for commands related to \\\"word\\\"...\\n\"\n&\"./make: No such file or directory.\\n\"\n&\"/home/taras/run: No such file or directory.\\n\"\n(gdb)\n1^error,msg=\"Undefined show command: \\\"interpreter\\\".  Try \\\"help show\\\".\"\n(gdb)\n2-inferior-tty-set /tmp/tmpE1c0by\n2^done\n(gdb)\n3-gdb-set target-async 1\n4-gdb-set pagination off\n3^done\n5-gdb-set disassembly-flavor intel\n(gdb)\n4^done\n(gdb)\n6-exec-run\n5^done\n(gdb)\n6^error,msg=\"No executable file specified.\\nUse the \\\"file\\\" or \\\"exec-file\\\" command.\"\n(gdb)\n",
-			"settings":
-			{
-				"buffer_size": 1303,
-				"line_ending": "Unix",
-				"name": "GDB Session",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1\nCopyright (C) 2014 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.  Type \"show copying\"\nand \"show warranty\" for details.\nThis GDB was configured as \"x86_64-linux-gnu\".\nType \"show configuration\" for configuration details.\nFor bug reporting instructions, please see:\n<http://www.gnu.org/software/gdb/bugs/>.\nFind the GDB manual and other documentation resources online at:\n<http://www.gnu.org/software/gdb/documentation/>.\nFor help, type \"help\".\nType \"apropos word\" to search for commands related to \"word\"...\n",
-			"settings":
-			{
-				"buffer_size": 736,
-				"line_ending": "Unix",
-				"name": "GDB Console",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "GDB Variables",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "GDB Callstack",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "GDB Threads",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "GDB Breakpoints",
-				"read_only": true,
-				"scratch": true
 			}
 		}
 	],
@@ -557,6 +521,69 @@
 	},
 	"file_history":
 	[
+		"/mnt/data/Downloads/Iskhodny_kod.cpp",
+		"/mnt/data/Downloads/2.txt",
+		"/mnt/data/Downloads/examples (3)/backtracking/бектрекінг.txt",
+		"/mnt/data/Downloads/examples (3)/numerical methods/числові методи.txt",
+		"/mnt/data/Downloads/examples (3)/numerical methods/Source.cpp",
+		"/mnt/data/Downloads/example1.cpp",
+		"/mnt/data/Downloads/examples (3)/strings/рядки.txt",
+		"/mnt/data/Downloads/examples (3)/strings/Source.cpp",
+		"/mnt/data/Downloads/example3.cpp",
+		"/mnt/data/Downloads/examples (3)/graph/граф(дерева).txt",
+		"/mnt/data/Downloads/examples (3)/graph/Source.cpp",
+		"/mnt/data/Downloads/examples (3)/flows/потоки.txt",
+		"/mnt/data/Downloads/example (3).cpp",
+		"/mnt/data/Downloads/example (2).cpp",
+		"/mnt/data/Downloads/examples (3)/flows/Source.cpp",
+		"/mnt/data/Downloads/examples (2)/flows/потоки.txt",
+		"/mnt/data/Downloads/examples (3)/backtracking/Source.cpp",
+		"/mnt/data/Downloads/example (1).cpp",
+		"/mnt/data/Downloads/examples (2)/backtracking/бектрекінг.txt",
+		"/mnt/data/Downloads/Source (1).cpp",
+		"/mnt/data/Downloads/1 (1).txt",
+		"/mnt/data/Downloads/1.txt",
+		"/home/taras/dev/city-simulator-old/main.cpp",
+		"/var/www/html/index.html",
+		"/var/www/html/rgr/cource/run/f.t",
+		"/home/taras/.config/sublime-text-2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/var/www/html/rgr/cource/run/out",
+		"/var/www/html/rgr/cource/run/1",
+		"/var/www/html/rgr/cource/run/input.txt",
+		"/var/www/html/rgr/cource/run/output.txt",
+		"/var/www/html/rgr/cource/run/in.txt",
+		"/var/www/html/rgr/cource/run/ex.cpp",
+		"/var/www/html/rgr/cource/run/example.cpp",
+		"/var/www/html/rgr/cource/input.txt",
+		"/var/www/html/rgr/cource/ex.cpp",
+		"/mnt/data/Downloads/VladKursach/main.cpp",
+		"/var/www/html/rgr/common/menu.php",
+		"/mnt/data/Downloads/examples (2)/strings/Source.cpp",
+		"/mnt/data/Downloads/examples (2)/geometry/геометрія.txt",
+		"/mnt/data/Downloads/examples (2)/strings/рядки.txt",
+		"/mnt/data/Downloads/examples (2)/graph/граф(дерева).txt",
+		"/mnt/data/Downloads/examples (2)/graph/Source.cpp",
+		"/mnt/data/Downloads/examples (2)/geometry/Source.cpp",
+		"/mnt/data/Downloads/examples (2)/flows/Source.cpp",
+		"/mnt/data/Downloads/examples (2)/flows/Flows.exe",
+		"/mnt/data/Downloads/examples (2)/backtracking/Source.cpp",
+		"/var/www/html/rgr/common/db.php",
+		"/home/taras/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/taras/documents/readme.txt",
+		"/home/taras/domunents/readme.txt",
+		"/var/www/html/cursach/menu.css",
+		"/var/www/html/cursach/tasks/addtask/house.php",
+		"/var/www/html/cursach/tasks/edittask/tout.txt",
+		"/var/www/html/cursach/tasks/tests.txt",
+		"/var/www/html/cursach/tasks/tout2",
+		"/var/www/html/cursach/tasks/tout1",
+		"/var/www/html/cursach/tasks/tin1",
+		"/var/www/html/cursach/tasks/check_sol.sh",
+		"/var/www/html/cursach/tasks/tin2",
+		"/var/www/html/cursach/tasks/tsin.txt",
+		"/var/www/html/cursach/tasks/tin.txt",
+		"/var/www/html/cursach/tasks/split.cpp",
+		"/var/www/html/cursach/tasks/LC_PAPER=uk_UA.UTF-8XDG_VTNR=71",
 		"/var/www/html/cursach/tasks/addtask/t_in.txt",
 		"/var/www/html/cursach/tasks/addtask/ex_in.txt",
 		"/var/www/html/cursach/tasks/exo1",
@@ -569,11 +596,9 @@
 		"/var/www/html/cursach/tasks/t3",
 		"/var/www/html/cursach/tasks/t2",
 		"/var/www/html/cursach/tasks/t1",
-		"/var/www/html/cursach/menu.css",
 		"/home/taras/dev/anp/2 semestr/lab7/tree.h",
 		"/home/taras/dev/anp/2 semestr/lab7/tree.cpp",
 		"/mnt/data/Downloads/lab8.cpp",
-		"/mnt/data/Downloads/1.txt",
 		"/var/www/html/cursach/tasks/t4",
 		"/home/taras/.config/sublime-text-2/Packages/PHP/while(-).sublime-snippet",
 		"/home/taras/.config/sublime-text-2/Packages/PHP/foreach(-).sublime-snippet",
@@ -588,7 +613,6 @@
 		"/var/www/html/cursach/tasks/1",
 		"/home/taras/Downloads/Iskhodny_kod (2).cpp",
 		"/home/taras/the_log",
-		"/var/www/html/cursach/tasks/check_sol.sh",
 		"/home/taras/Downloads/res",
 		"/home/taras/uploads/timeout.cpp",
 		"/home/taras/uploads/incorrect.cpp",
@@ -624,67 +648,7 @@
 		"/home/taras/Downloads/Lab/Queue.h",
 		"/home/taras/Downloads/Lab/Queue.cpp",
 		"/home/taras/Downloads/Lab/makefile",
-		"/home/taras/Downloads/main.cpp",
-		"/home/taras/.config/sublime-text-2/Packages/SublimeClang/Default.sublime-keymap",
-		"/home/taras/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/taras/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/taras/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
-		"/media/taras/GRMCULXFRER/labanp/lab4/lab4/main.cpp",
-		"/home/taras/Downloads/Экстремум функции/Project1.cpp",
-		"/home/taras/Downloads/Экстремум функции/Unit1.h",
-		"/home/taras/Downloads/Экстремум функции/Unit1.cpp",
-		"/home/taras/dev/anp/2 semestr/lab7/makefile",
-		"/home/taras/dev/anp/2 semestr/lab4/makefile",
-		"/etc/phpmyadmin/apache.conf",
-		"/home/taras/dev/anp/2 semestr/lab5/makefile",
-		"/home/taras/dev/anp/2 semestr/bevz/input.txt",
-		"/home/taras/dev/anp/2 semestr/bevz/lab4.cpp",
-		"/home/taras/dev/anp/2 semestr/lab4/stack.cpp",
-		"/home/taras/dev/anp/2 semestr/lab4/main.cpp",
-		"/home/taras/dev/anp/2 semestr/input.txt",
-		"/home/taras/dev/anp/2 semestr/lab4.cpp",
-		"/home/taras/dev/anp/2 semestr/lab4/stack.h",
-		"/home/taras/dev/anp/2 semestr/lab5/input.txt",
-		"/home/taras/dev/anp/2 semestr/lab4/input.txt",
-		"/home/taras/Downloads/Lab4_rezerv.cpp",
-		"/home/taras/dev/anp/2 semestr/lab5/queue.h",
-		"/home/taras/dev/anp/2 semestr/lab5/queue.cpp",
-		"/home/taras/Downloads/untitled.pro",
-		"/home/taras/Downloads/Lab_5.cpp",
-		"/home/taras/Downloads/katya.cpp",
-		"/home/taras/Downloads/result_2.txt",
-		"/home/taras/Downloads/1 (1).txt",
-		"/home/taras/Backups/dev/rubiks-cube/main.cpp",
-		"/home/taras/lab4.cpp",
-		"/home/taras/cynergy.conf",
-		"/home/taras/output.txt",
-		"/home/taras/dev/anp/2 semestr/lab5/lab5.cpp",
-		"/home/taras/dev/anp/2 semestr/den/lab5.txt",
-		"/home/taras/dev/anp/2 semestr/den/lab5.cpp",
-		"/home/taras/dev/anp/2 semestr/den/lab4.cpp",
-		"/home/taras/dev/anp/2 semestr/lab5.cpp",
-		"/home/taras/flash/Lab4/Lab4/stack.cpp",
-		"/home/taras/Downloads/Iskhodny_kod (1).cpp",
-		"/home/taras/Downloads/000342.cpp",
-		"/mnt/data/Education/Programming/ANSI C++ semestr 2/MethodLabWorkС++Semestr2/labs/lab_02/variant.htm",
-		"/home/taras/dev/people/28. Халимон Тарас Юрійович/2 semestr/lab5/input.txt",
-		"/home/taras/.config/sublime-text-2/Packages/User/While.sublime-snippet",
-		"/home/taras/.config/sublime-text-2/Packages/C++/if-..-(if).sublime-snippet",
-		"/home/taras/Downloads/000210.cpp",
-		"/home/taras/dev/discrette/realizations/lab7/lab7.sublime-project",
-		"/home/taras/dev/discrette/realizations/lab7/graph_07_1.txt",
-		"/home/taras/dev/city-simulator-old/engine/trsys.cpp",
-		"/home/taras/dev/discrette/realizations/lab7/Makefile",
-		"/home/taras/dev/discrette/realizations/lab7/graph_07_4.txt",
-		"/home/taras/dev/discrette/realizations/lab7/graph_07_3.txt",
-		"/home/taras/dev/discrette/realizations/lab7/graph_07_2.txt",
-		"/home/taras/dev/discrette/lab7/Makefile",
-		"/home/taras/dev/discrette/lab7/edge.cpp",
-		"/home/taras/dev/discrette/lab7/main.cpp",
-		"/home/taras/dev/discrette/lab7/graph.h",
-		"/home/taras/dev/discrette/lab7/graph.cpp",
-		"/home/taras/dev/discrette/lab7/node.cpp",
-		"/home/taras/dev/discrette/lab7/edge.h"
+		"/home/taras/Downloads/main.cpp"
 	],
 	"find":
 	{
@@ -702,6 +666,101 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"adjMatrix",
+			" {",
+			"- ",
+			"+=",
+			"+= ",
+			" +=",
+			" + =",
+			" +  + ",
+			"+",
+			" + ",
+			"mainJo",
+			"read",
+			"mainJonson",
+			"<?=$root?>",
+			"$root",
+			"<br>",
+			"b",
+			" //",
+			"  //",
+			"<br>",
+			"b",
+			"<br>",
+			"pre",
+			"<br>",
+			" //",
+			"<br>",
+			"</p>",
+			"<br>",
+			"\\'",
+			"b",
+			" //",
+			"<br>",
+			"b",
+			"br",
+			"<b>",
+			"int",
+			"getch",
+			"любу",
+			"<br>",
+			"b",
+			"<b>",
+			"b",
+			"<br>",
+			"\\'",
+			"\\\\'",
+			"'",
+			"readfromfilefordeterminant",
+			"getch",
+			"$addr +=",
+			"$in",
+			"in",
+			"<br><br>",
+			"<br>",
+			"\\'",
+			"соседними",
+			"перекраски",
+			"белый",
+			"черного",
+			"<br>",
+			"'",
+			"\\'",
+			"/'",
+			"\\'",
+			"topic_name",
+			"'",
+			"path",
+			"true",
+			"admin",
+			"об\"єк",
+			"?",
+			"єкт",
+			"'",
+			"\"",
+			"б\"є",
+			"'",
+			"td",
+			"'",
+			"<td>",
+			"td",
+			"d",
+			"/p",
+			"p",
+			"<p>",
+			"\n\n",
+			"\n",
+			"<i>",
+			"'",
+			"sol_file",
+			"form",
+			"1",
+			"exnum",
+			"test",
+			"if (isset($_GET['s",
+			"test",
+			"tin",
 			"e",
 			"ex",
 			"ex_in",
@@ -734,102 +793,7 @@
 			"\\n",
 			"tr",
 			"parentId",
-			"examples",
-			"'del'",
-			"del",
-			"300px",
-			"195px",
-			"\\\"",
-			"195px",
-			"addtas",
-			"ad",
-			"padding",
-			"del",
-			"додати тест",
-			"X",
-			"addtask",
-			"parentId",
-			"padding",
-			"id",
-			"    ",
-			"допо",
-			"<? $root ?>",
-			"X",
-			"видалити",
-			"div",
-			"2",
-			"col",
-			"<td>",
-			"td",
-			"deleteField",
-			"n",
-			"tmp",
-			"outname",
-			"першого",
-			"<td>",
-			"нас",
-			"			<",
-			" ",
-			" ",
-			" ",
-			"txt",
-			"time.txt",
-			"txt",
-			"password check failed for user",
-			"th",
-			"stdin",
-			"output2",
-			"incorre",
-			"./a.out",
-			"echo",
-			"soloution",
-			"\\.'.*\\\\n';",
-			"\\.'.*",
-			".'</p>\\n';",
-			"n",
-			".'</td>\\n';",
-			"\\.'.*",
-			"i",
-			"vis",
-			"()",
-			"NodeRef",
-			"edge",
-			"begin",
-			"=#",
-			"font-size",
-			"red",
-			" block",
-			"    ",
-			" {\n",
-			"  ",
-			"            ",
-			"           ",
-			"          ",
-			"         ",
-			"        ",
-			"       ",
-			"      ",
-			"     ",
-			"    ",
-			"   ",
-			"  ",
-			"display",
-			";\n",
-			" {\n",
-			" }",
-			"\n ",
-			" { ",
-			"padding",
-			"left",
-			"55ff55",
-			"nav",
-			"jpg",
-			"queue",
-			"function",
-			"cerr",
-			"root",
-			"cerr",
-			"root"
+			"examples"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -847,15 +811,96 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "common/db.php",
+					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 299,
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1177,
+								1177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2668.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "common/menu.php",
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 664.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/taras/studing.txt",
+					"settings":
+					{
+						"buffer_size": 2442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"auto_name": "studing.txt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 3792,
 						"regions":
 						{
 						},
@@ -868,113 +913,88 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "common/menu.php",
-					"settings":
-					{
-						"buffer_size": 786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								690,
-								690
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 1051,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								444,
-								444
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "contacts/index.php",
-					"settings":
-					{
-						"buffer_size": 839,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "cource/index.php",
+					"file": "contacts/index.php",
 					"settings":
 					{
-						"buffer_size": 720,
+						"buffer_size": 1620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5,
-								5
+								489,
+								489
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cource/index.php",
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								964,
+								964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 457.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "cource/run/index.php",
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.php",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -985,19 +1005,72 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "tasks/index.php",
+					"buffer": 7,
+					"file": "cource/run/run.sh",
 					"settings":
 					{
-						"buffer_size": 5402,
+						"buffer_size": 25,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5054,
-								5054
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"auto_name": "run.sh",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "cource/run/f.t",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Perl/Perl.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tasks/index.php",
+					"settings":
+					{
+						"buffer_size": 7173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1006,80 +1079,53 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4680.0,
+						"translation.y": 6090.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "tasks/split.cpp",
+					"buffer": 10,
+					"file": "res/index.php",
 					"settings":
 					{
-						"buffer_size": 902,
+						"buffer_size": 718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								873,
-								873
+								104,
+								104
 							]
 						],
 						"settings":
 						{
-							"auto_name": "split.cpp",
-							"syntax": "Packages/C++/C++.tmLanguage",
+							"auto_name": "addpicture.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 174.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "style.css",
-					"settings":
-					{
-						"buffer_size": 1104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1102,
-								1102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2552.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "tasks/addtask/index.php",
 					"settings":
 					{
-						"buffer_size": 8636,
+						"buffer_size": 8620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8293,
-								8293
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1090,86 +1136,6 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5508.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "tasks/tests.txt",
-					"settings":
-					{
-						"buffer_size": 19,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"auto_name": "1 2",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "tasks/addtask/house.php",
-					"settings":
-					{
-						"buffer_size": 19976,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16593,
-								16593
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 17799.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "tasks/check_sol.sh",
-					"settings":
-					{
-						"buffer_size": 108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1177,18 +1143,18 @@
 				},
 				{
 					"buffer": 12,
-					"file": "theory/index.php",
+					"file": "tasks/edittask/index.php",
 					"settings":
 					{
-						"buffer_size": 1318,
+						"buffer_size": 9742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1318,
-								1318
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1197,72 +1163,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 618.0,
+						"translation.y": 348.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 13,
+					"file": "theory/index.php",
 					"settings":
 					{
-						"buffer_size": 1303,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1303,
-								1303
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SublimeGDB/gdb_session.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"settings":
-					{
-						"buffer_size": 736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								736,
-								736
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 21660.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 2102,
 						"regions":
 						{
 						},
@@ -1275,98 +1186,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 16,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 17,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 406.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1389,39 +1213,18 @@
 			[
 				0,
 				0,
-				3,
+				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
-				2,
-				2
-			],
-			[
-				2,
-				1,
-				3,
-				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.75,
 			1.0
 		]
 	},
@@ -1436,7 +1239,7 @@
 	},
 	"output.exec":
 	{
-		"height": 143.0
+		"height": 167.0
 	},
 	"replace":
 	{
